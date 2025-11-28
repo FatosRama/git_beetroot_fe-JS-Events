@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events - Third Assignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin:0;
+            padding:0;
+        }
+        body {
+            font-family:sans-serif;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .resizable-box {
+            width: 400px;
+            height: 300px;
+            border: 3px solid black;
+            padding: 20px;
+            position: relative;
+            overflow: auto;
+        }
+        .resize-handle {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            bottom: 0;
+            right: 0;
+            cursor: se-resize;
+        }
+        
+    
+    </style>
+</head>
+<body>
+
+<div class="resizable-box" id="text-box">
+    <div class="content">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima quaerat, nostrum, tempora modi nesciunt voluptatem fugiat consequuntur in blanditiis repudiandae corporis quod dignissimos beatae velit quisquam, dicta eos commodi mollitia! Pariatur atque aut voluptas impedit perspiciatis itaque laboriosam optio tempore assumenda omnis iusto quia qui, illo earum ut hic eaque necessitatibus quibusdam! Cupiditate deleniti quia repudiandae nostrum aliquid. Similique nobis perferendis laborum explicabo, eius possimus dolorum odit architecto minus, qui, facilis labore! Necessitatibus totam distinctio assumenda, architecto possimus praesentium recusandae iste aspernatur labore saepe, esse quo aliquid quis dicta. Sunt, blanditiis! Labore, laborum. Recusandae aliquid eveniet accusamus pariatur consequuntur debitis, quo fugiat sint tenetur non nam mollitia. Explicabo repellendus rem, iure officia non quam quod vel! Earum non odit eos adipisci aspernatur. Voluptatibus sequi modi vero magni omnis laudantium optio unde animi odit recusandae repudiandae, repellat explicabo aliquam quam vel rerum illum. Nulla suscipit harum placeat! Quasi sequi ab nemo quisquam dicta commodi, alias atque perspiciatis vero nisi illum, et fugiat temporibus praesentium accusamus tempore! Tempore suscipit nobis ab optio quaerat eius, a odit? Et sapiente saepe nesciunt natus qui corporis beatae, deserunt quaerat, dolorum eaque, dolores fugiat totam. Perferendis eveniet, autem quo explicabo ipsum ipsa dolorem eum maxime, ad molestias itaque doloribus sapiente amet quisquam ratione facilis modi aperiam dolorum labore. Voluptatem laborum aperiam sapiente! Deleniti nulla voluptates expedita perspiciatis iusto repellendus repudiandae quae et rem, perferendis dolorum laudantium culpa ipsum, voluptate fugit cumque doloribus excepturi nobis temporibus voluptatem, veniam eveniet. Animi, voluptatibus aperiam architecto odio beatae, consequuntur voluptatum nemo dolores officia, hic consectetur quod? Ipsa consectetur magni ut exercitationem iure dolore amet! Beatae eveniet nostrum necessitatibus aliquam laborum consequatur non pariatur expedita nisi, id veniam itaque sunt deleniti ad. Molestiae, provident. Maxime accusantium magni dicta inventore earum? Natus molestiae libero cum consequuntur sunt unde voluptate voluptates quod hic impedit magni asperiores, velit iste odit? Beatae accusamus similique quo quae, eos magni minus natus tenetur eligendi cumque in. Natus animi cumque assumenda molestiae quam eius sed expedita perspiciatis ex, vero sequi. Explicabo fuga, vitae incidunt quod numquam voluptatum ratione repellendus dicta corrupti rem ullam iusto recusandae nisi quasi consectetur nam doloremque et? Sequi eum unde hic dignissimos! Maxime animi dolorum, optio vero, saepe odio vel ducimus delectus quisquam enim doloremque labore totam unde. Explicabo asperiores est earum minus ad tenetur, nemo sapiente aspernatur dicta non dignissimos ducimus eaque vel maxime sunt dolores unde eum inventore. Pariatur rerum explicabo ullam! Delectus laborum quam molestiae error perferendis nihil eligendi iusto sint sit accusamus omnis architecto pariatur ratione harum quod, ea labore! Accusamus, beatae amet praesentium perferendis possimus, exercitationem obcaecati saepe quibusdam commodi repellendus culpa fuga quis dolorem sequi nobis sunt dignissimos nihil, consequatur numquam alias ipsum vel sapiente! Veniam, qui! Possimus similique, distinctio ullam est et, repellat asperiores debitis atque at excepturi animi impedit explicabo tempore corporis? Dicta, repellat? Expedita officiis dolores fugit ipsam deserunt et quibusdam, possimus voluptate odio asperiores nam eos sint, corporis amet cupiditate nulla voluptates magnam. Distinctio sit deserunt beatae minima id quidem repellendus ipsam voluptatum!</p>
+    </div>
+    <div class="resize-handle" id="handle-box"></div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
